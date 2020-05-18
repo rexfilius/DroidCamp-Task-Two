@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DroidCampTaskTwo</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="about_me">About Me</string>
+    <string name="iron_throne">Iron Throne</string>
+    <string name="title">Ruler of the Great Sea.
+    \nKing of the Andals and the First Men.
+    \nLord of the Seven Kingdoms.
+    \nProtector of the Realm.</string>
+    <string name="say_hello">Say Hello</string>
+    <string name="name">Name</string>
+</resources>

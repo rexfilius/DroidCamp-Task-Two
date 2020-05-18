@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screen2Activity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="325dp"
+        android:layout_height="173dp"
+        android:layout_marginTop="30dp"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/iron_throne"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/throne" />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/name"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textAboutMe"
+        android:layout_width="313dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/title"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="@+id/textName"
+        app:layout_constraintStart_toStartOf="@+id/textName"
+        app:layout_constraintTop_toBottomOf="@+id/textName" />
+
+    <Button
+        android:id="@+id/buttonSayHello"
+        android:layout_width="161dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorAccent"
+        android:text="@string/say_hello"
+        app:layout_constraintEnd_toEndOf="@+id/textAboutMe"
+        app:layout_constraintStart_toStartOf="@+id/textAboutMe"
+        app:layout_constraintTop_toBottomOf="@+id/textAboutMe" />
+</androidx.constraintlayout.widget.ConstraintLayout>
